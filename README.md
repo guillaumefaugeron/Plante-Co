@@ -72,9 +72,9 @@ Conclusion
 
 # Historique du document
 
-```
+
 ![Versions de la doc](historique doc.png)
-```
+
 
 **Document Réalisé par le groupe F :**
 
@@ -118,21 +118,20 @@ L’entreprise a pour ambition de révolutionner l’approche de la botanique, e
 
 La réalisation de ce projet avait pour exigence un travail d’équipe et une organisation sans faille pour des besoins de productivité et pour le bien des clients. A cette fin nous nous sommes servi d’outils de communication tel que discord pour un partage de fichiers et de la communication de travail dans l’équipe, ainsi que de Skype entreprise pour réaliser nos réunions de planification et préparation. De plus, nous nous servons de la suite office 365 et plus précisément de One drive, pour stocker et partager les données volumineuse et importante (son principal intérêt est une gestion des sauvegardes simplifié pour toute l’équipe). Enfin GitHub nous aura aidé à sauvegarder notre code pour le faire vérifier par la communauté ainsi que de se servir de librairie partagée sur GitHub.
 
-```
+
 ![Logo de Github](gitlogo.png)
-```
 
-```
+
+
 ![Logo de Skype](skypelogo.png)
-```
 
-```
+
 ![Logo office 365](office365logo.png)
-```
 
-```
+
+
 ![Logo de Discord](discord logo.png)
-```
+
 
 # Présentation Projet
 
@@ -216,9 +215,9 @@ Notre projet a besoin pour fonctionner des caractéristiques suivantes :
 
 Notre module devant être vendu a des particulier, nous devons être compétitif au niveau du prix, tout en ayant un des capteurs pouvant supporter un climat continental européen. Pour cela nous avons fait un tableau comparatif des différents capteurs dont nous avons besoin.
 
-```
+
 ![Choix capteurs](capteurs.png)
-```
+
 
 Les capteurs choisis sont les capteurs les plus adapté à une utilisation occidentale. Leur utilisation simplifiée ainsi que leur nombre peu important permettront un suivit de l’application cliente plus accessible.
 
@@ -238,33 +237,33 @@ La collecte des données des capteur s’effectue grâce à une carte micro cont
 
 --Le capteur d’humidité du sol :
 
-```
+
 ![Capteur humidité Sol](capteurhumiditesol.png)
-```
+
 
 Ce capteur nécessite un calibrage avant utilisation pour récupérer un pourcentage précis, cependant il est commun de retrouver dans sa documentation technique qu’il a pour minimal 260 (un enivrement sec) et pour maximal 520 (un environnement liquide).
 
 --Le capteur de température, humidité :
 
-```
+
 ![Capteur d’humidité/Température](capteurhumtemp.png)
-```
+
 
 Le choix de ce capteur était judicieux, grâce à une librairie simple d’utilisation, nous avons pu maximiser l’efficacité du module avec la mesure de deux valeurs, la température et la luminosité. Ce capteur est un gain de place, de temps, d’argent, il est parfaitement adapté à ce module qui a pour but de satisfaire un public de particulier.
 
 --Le capteur de luminosité :
 
-```
+
 ![Capteurs luminosité](capteurluminosité.png)
-```
+
 
 Le capteur d’intensité lumineuse requière l’ajout d’un modulateur de tension afin de passer d’une tentions en entrée de 5V a une tension en sortie de 3.3V pour que le capteur puisse fonctionner correctement.
 
 Principe de fonctionnement :
 
-```
+
 ![Algorigramme 1](algo1.png)
-```
+
 
 Synthèse :
 
@@ -276,37 +275,37 @@ Pour l’échange de donné entre la carte nous avons fait le choix d’utiliser
 
 Principe de fonctionnement :
 
-```
+
 ![Algorigramme 2](algo2.png)
-```
+
 
 3.Affichage des données :
 
 Lorsque l’utilisateur lance le client, il doit tout d’abord s’authentifier afin d’éviter la fuite d’information personnel.
 
-```
+
 ![Portail authentification](appli.png)
-```
+
 
 Après s’être identifié celui-ci devra sélectionner le module qu’il souhaite consulter, chaque module aura sa propre ID (nommé « arduino1 » et « arduino2 » dans l’exemple ci-dessous).
 
-```
+
 ![Interface 1](appliID.png)
-```
+
 
 Enfin l’utilisateur pourra sélectionner une plante de référence pour comparer ses valeurs avec les valeurs optimal du plant.
 
-```
+
 ![Interface 2](appliplantes.png)
-```
+
 
 Enfin à la fin de son utilisation, l’usager pourra se déconnecter du client.
 
 Principe de fonctionnement
 
-```
+
 ![Algorigramme 3](algo3.png)
-```
+
 
 # Bilan projet
 
