@@ -1,14 +1,14 @@
-#DOSSIER PLANTES CONNECTÉES
+# DOSSIER PLANTES CONNECTÉES
 
-###Connected Flowers
+### Connected Flowers
 
-```
+
 ![Logo de notre entreprise](logo.png)
-```
+
 
 ================================
 
-###Table des matières
+### Table des matières
 
 Historique du document
 
