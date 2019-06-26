@@ -1,8 +1,6 @@
-<![endif]-->
+#DOSSIER PLANTES CONNECTÉES
 
-DOSSIER PLANTES CONNECTÉES
-
-Connected Flowers
+###Connected Flowers
 
 ```
 ![Logo de notre entreprise](logo.png)
@@ -10,7 +8,7 @@ Connected Flowers
 
 ================================
 
-Table des matières
+###Table des matières
 
 Historique du document
 
